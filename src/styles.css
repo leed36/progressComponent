@@ -1,0 +1,43 @@
+.box {
+    display:inline;
+    height: 20px;
+    width:8%;
+    float:left;
+    background:#000;
+    margin-left: 10px;
+    text-align:center;
+    background-color: white;
+    outline: 2px solid black;
+}
+
+.box.blue {
+    background-color: blue;
+}
+
+.box.red {
+    background-color: red;
+}
+
+.box:last-child {
+    margin-right: 10px;
+}
+
+.boxContainer {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 50px;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: beige;
+}
+
+.statusText {
+    color: black;
+    font-weight: bold;
+}
